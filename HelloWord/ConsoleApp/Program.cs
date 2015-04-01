@@ -10,7 +10,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            int a = 1;
+            int a = 11;
             int b = 2;
         }
     }
