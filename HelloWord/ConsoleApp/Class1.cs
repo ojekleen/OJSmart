@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class Class1
+    public class Class1
     {
+        public int ID { get; set; }
+
+        public int InValue { get; set; }
+
+        public long OutValue { get; set; }
+
+        public Class1(int inValue)
+        {
+            this.InValue = inValue;
+        }
+
+        //public System.Threading.Thread CurThread { get; set; }
+
     }
 }
